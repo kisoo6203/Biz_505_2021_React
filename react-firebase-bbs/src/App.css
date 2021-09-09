@@ -48,11 +48,14 @@
   }
 }
 
-
+.table {
+	width: 100%;
+}
 
 .second_menu {
 	display: flex;
 	background-color: #ddd;
+	
 }
 
 .write_2{
