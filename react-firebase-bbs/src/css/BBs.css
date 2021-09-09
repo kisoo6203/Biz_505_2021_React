@@ -1,0 +1,19 @@
+table.bbs_list {
+	width:95%;
+	margin-left: 20px auto;
+	border-collapse: collapse;
+	border-spacing: 01;
+}
+
+table.bbs_list tr {
+	border-top: 1px solid #ddd;;
+	border-bottom: 1px solid #ddd;
+}
+
+table.bbs_list th,
+table.bbs_list td {
+	padding: 8px;
+}
+table.bbs_list th {
+	color: blue;
+}
