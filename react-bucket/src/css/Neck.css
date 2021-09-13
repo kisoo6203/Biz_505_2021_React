@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.neck {
+	margin: 20px auto;
+	width: 95%;
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
