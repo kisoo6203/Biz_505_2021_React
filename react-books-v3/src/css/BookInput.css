@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+.insert_menu {
+	border: 1px solid #ccc;
+	width: 70%;
+	margin: 20px auto;
+	font-size: 20px;
+	padding: 2%;
+}
+.div_box {
+	text-align: right;
+	margin-right: 30%;
+}
+.input_box {
+	padding: 10px;
+	margin: 10px ;
+	width: 50%;	
+}
+.btn_add {
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	padding : 15px;
+	width: 15%;
+}

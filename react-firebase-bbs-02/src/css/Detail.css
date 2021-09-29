@@ -1,0 +1,25 @@
+div.bbs_detail {
+	width: 90vw;
+	margin: 10px auto;
+}
+
+div.bbs_detail label,
+div.bbs_detail span {
+	display: inline-block;
+	margin: 0;
+	padding: 8px;
+}
+
+div.bbs_detail label {
+	width: 30%;
+	background-color: #ddd;
+	text-align: right;
+	color: blue;
+	font-weight: bold;
+}
+
+div.bbs_detail span {
+	width: 60%;
+	background-color: #eee;
+	text-align: left;
+}

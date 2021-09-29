@@ -61,13 +61,13 @@ function Writer({ history }) {
 					input box에 데이터(문자열)를 입력하면
 					입력된 데이터를 상태(변수, 객체)에 보관하는 역할을 수행한다
 				*/}
-				<input name="b_writer" onChange={onChange} placeholder="작성자"></input>
+				<input className="input" name="b_writer" onChange={onChange} placeholder="작성자"></input>
 			</div>
 			<div>
-				<input name="b_subject" onChange={onChange} placeholder="제목"></input>
+				<input className="input" name="b_subject" onChange={onChange} placeholder="제목"></input>
 			</div>
 			<div>
-				<input name="b_content" onChange={onChange} placeholder="내용"></input>
+				<input className="input" name="b_content" onChange={onChange} placeholder="내용"></input>
 			</div>
 			<button onClick={onClickSave} className="btn_save">저장</button>
 		</div>
