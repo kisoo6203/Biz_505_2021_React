@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #afafaf;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -23,10 +23,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -37,37 +33,4 @@
     transform: rotate(360deg);
   }
 }
-.head_input {
-	background-color: grey;
-}
-body {
-	/* background-image: url("./image/55.png");*/
-	background-color: lightgrey;
-}
-table {
-	margin:auto;
-	text-align: center;
-	
-}
-input {
-	padding: 10px;
-	margin: 2px;
-	border:0;
-}
-input:hover {
-	cursor: pointer;
-	background-color: lightgrey;
-}
-button {
-	padding: 10px;
-}
-tr {
-	color: red;	
-	font-size: 30px;
-	
-}
-td {
-	padding: 20px;
-	color: blue;
-	border: 1px solid green;
-}
+

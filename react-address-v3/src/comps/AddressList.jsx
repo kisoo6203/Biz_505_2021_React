@@ -16,7 +16,7 @@ function AddressList({ addrBook }) {
 	})
 
 	return <table>
-		<thead>
+		<thead className="head_bar">
 			<tr>
 				<th>ID</th>
 				<th>이름</th>

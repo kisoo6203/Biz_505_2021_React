@@ -3,11 +3,11 @@ import "../css/BookList.css"
 
 function BookList() {
 	return (
-		<div className="menu_bar">
-			<div className="div_next">ID</div>
-			<div className="div_next">도서명</div>
-			<div className="div_next">장르</div>
-		</div>
+		<ul className="menu_bar">
+			<li className="li_next">ID</li>
+			<li className="li_next">도서명</li>
+			<li className="li_next">장르</li>
+		</ul>
 	)
 }
 

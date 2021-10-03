@@ -4,6 +4,7 @@ import AddressInput from './comps/AddressInput';
 import AddressList from './comps/AddressList';
 import {useState} from 'react';
 import UUID from "react-uuid"
+import HeaderInput from './comps/HeaderInput';
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo"/>
+        <HeaderInput />
       </header>
 	  <AddressInput stateGroup={stateGroup}/>
 	  <AddressList addrBook={addrBook}/>

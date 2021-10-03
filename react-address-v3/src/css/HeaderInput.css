@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.info  * {
+	color: rgb(39, 8, 8);	
+	font-size: 60px;
+	font-weight: bold;
+	transition: 0.4s ease;
+	text-shadow: 0px 0px 20px rgb(20 20 20);
+}
+.info tr:first-of-type {
+	transform: translateY(50%);
+}
+.info tr:nth-of-type(2) {
+	opacity: 0;
+	transform: translateY(50%);
+}
+.info:hover tr:nth-of-type(1) {
+	transform: translateY(100%);
+	opacity: 0;
+}
+.info:hover tr:nth-of-type(2) {
+	opacity: 1;
+	transform: translateY(-50%);
+}

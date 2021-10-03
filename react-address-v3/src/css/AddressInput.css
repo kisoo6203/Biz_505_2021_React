@@ -1,0 +1,76 @@
+
+.head_input {
+	background-color: grey;
+}
+body {
+	/* background-image: url("./image/55.png");*/
+	background-color: rgb(158, 158, 158);
+}
+table {
+	margin:20px auto;
+	text-align: center;	
+}
+@keyframes sparkle {
+	from {
+	  background-position: 0% 100%;
+	}
+	to {
+	  background-position: 200% 100%;
+	}
+}
+input {
+	padding: 10px;
+	margin: 5px;
+	border:0;
+	font-size: 20px;
+	width: 15%;
+	animation: sparkle 6s infinite linear;
+	background: linear-gradient(90deg, lightgrey, grey, rgb(165, 165, 165),lightgrey);
+	background-size: 400% 100%;
+	border-radius: 4px;
+	z-index: -1;
+}
+input:hover {
+	background-color: lightgrey;
+}
+button {
+	padding: 9px;
+	border-radius: 5px;
+	border:0;
+	font-size: 20px;
+	font-weight: bold;
+	width: 7%;
+	display: inline-block;
+	color: rgb(90, 90, 90);
+	transition: all 0.3s ease-out;
+	background: linear-gradient(
+	270deg,
+	rgba(94, 85, 64, 0.8),
+	rgba(80, 76, 69, 0.8),
+	rgba(134, 134, 134, 0),
+	rgba(194, 194, 194, 0)
+	);
+	background-position: 1% 50%;
+	background-size: 300% 300%;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #bbb;
+	background-position: 99% 50%;
+}
+tr.text_1 {
+	font-size: 30px;
+}
+.head_bar  * {
+	color: rgb(66, 59, 59);	
+	font-size: 40px;
+	transition: 0.4s ease;
+}
+
+td {
+	padding: 20px;
+	color: rgb(71, 71, 71);
+	border: 0;
+	background-color: #afafaf;
+
+}

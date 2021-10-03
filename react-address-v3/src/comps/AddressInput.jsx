@@ -1,5 +1,6 @@
 import React from 'react'
 import UUID from "react-uuid"
+import '../css/AddressInput.css'
 
 function AddressInput({stateGroup}) {
 	// const {stateGroup} = props;
